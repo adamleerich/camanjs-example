@@ -1,0 +1,118 @@
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: rgb(75, 146, 219);
+}
+
+#img-box {
+  display: none;
+}
+
+#drop-area {
+  border: 2px dashed #ccc;
+  width: 480px;
+  margin: 25px;
+  padding: 10px;
+}
+
+#save-area {
+  width: 480px;
+  margin: 25px;
+  padding: 12px;
+}
+
+#edit-area {
+  width: 1230px;
+  margin: 25px;
+  padding: 12px;
+}
+
+p {
+  margin-top: 0;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  background-color: rgb(207, 17, 140); /* Beazley pink */
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #ccc; 
+}
+
+.button:hover {
+  background-color: rgb(38, 39, 41); /* Beazley dark grey */
+}
+
+#fileElem {
+  display: none;
+}
+
+.column {
+  float: left;
+  margin: 5px;
+}
+
+.column img {
+  width: 400px;
+  vertical-align: middle;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div#preview-holder {
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+}
+
+
+
+
+
+/*
+Dependencies of jQuery crop plugin
+https://code.tutsplus.com/tutorials/how-to-create-a-jquery-image-cropping-plugin-from-scratch-part-i--net-20994
+*/
+div#image-crop-overlay {
+    background-color : #ffffff;
+    overflow : hidden;
+}
+ 
+div#image-crop-outline {
+    background : #ffffff url('outline.gif');
+    overflow : hidden;
+}
+
+div#image-crop-size-hint-background {
+  background-color : #000000;
+}
+
+span#image-crop-size-hint-foreground {
+  color : #ffffff;
+  font-family : 'Verdana', 'Geneva', sans-serif;
+  font-size : 12px;
+  text-shadow : 0 -1px 0 #000000;
+}
+
+div.image-crop-resize-handler {
+  background-color : #000000;
+  border : 1px #ffffff solid;
+  height : 7px;
+  overflow : hidden;
+  width : 7px;
+}
+
