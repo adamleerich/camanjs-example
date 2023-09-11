@@ -1,3 +1,26 @@
+
+
+# Image Sizes
+
+https://www.adobe.com/express/discover/sizes/instagram
+
+
+## Instagram
+
+* Square posts: 1080px by 1080px at a 1:1 aspect ratio
+* Landscape images: 1080px by 566px, with an aspect ratio of 1.91:1
+* Vertical images: 1080px by 1350px with a 4:5 aspect ratio
+* Horizontal video: 16:9 aspect ratio
+* Full screen videos: 1080px by 1920px for a 9:16 aspect ratio
+* IGTV cover photo: 420px by 654px with a 1:1.55 aspect ratio
+
+
+
+
+
+
+
+
 # CamanJS Example
 
 

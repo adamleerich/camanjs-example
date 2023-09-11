@@ -63,7 +63,7 @@
         
         <div class="column">
           <div id="controls-holder">
-            <h3>Adjustments</h3>
+            <!--<h3>Adjustments</h3>
               <div>
                 <label class="button" onclick="bDown()">-</label>
                 Brightness
@@ -74,7 +74,16 @@
                 <label class="button" onclick="cDown()">-</label>
                 Contrast
                 <label class="button" onclick="cUp()">+</label>
-              </div><br/>
+              </div><br/>-->
+
+            <h3>Aspect Ratio</h3>
+            <div>
+              <input type="radio" id="ar_1_1"      name="rb_aspect_ratio" value="ar_1_1"      onclick=""><label for="ar_1_1"      >1:1 square</label><br>
+              <input type="radio" id="ar_191_100"  name="rb_aspect_ratio" value="ar_191_100"  onclick=""><label for="ar_191_100"  >1.91:1 IG landscape posts</label><br>
+              <input type="radio" id="ar_4_5"      name="rb_aspect_ratio" value="ar_4_5"      onclick=""><label for="ar_4_5"      >4:5 = 1:1.25 IG portrait posts</label><br>
+              <input type="radio" id="ar_16_9"     name="rb_aspect_ratio" value="ar_16_9"     onclick=""><label for="ar_16_9"     >16:9 = 1.77:1 blog posts</label><br>
+              <input type="radio" id="ar_100_155"  name="rb_aspect_ratio" value="ar_100_155"  onclick=""><label for="ar_100_155"  >1:1.55 blog sidebar</label><br>
+            </div>
 
               
             
@@ -366,19 +375,21 @@
     }
 
 
-    function bUp(){
-      kman.brightness(1).render();
-    }
-    function bDown(){
-      kman.brightness(-1).render();
-    }
-    function cUp(){
-      kman.contrast(1).render();
-    }
-    function cDown(){
-      kman.contrast(-1).render();
-    }
+    // function bUp(){
+    //   kman.brightness(1).render();
+    // }
+    // function bDown(){
+    //   kman.brightness(-1).render();
+    // }
+    // function cUp(){
+    //   kman.contrast(1).render();
+    // }
+    // function cDown(){
+    //   kman.contrast(-1).render();
+    // }
     
+
+
 
     $(document).ready(function() {
       setOriginal();
